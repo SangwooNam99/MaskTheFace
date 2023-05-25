@@ -44,6 +44,7 @@ parser.add_argument(
     "--color",
     type=str,
     default="#0473e2",
+    choices=["#C2A174","#0473e2","#3D3D3D","#1F304C","#531A29","#FFFFFF","all"]
     help="Hex color value that need to be overlayed to the mask",
 )
 
