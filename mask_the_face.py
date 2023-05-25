@@ -22,7 +22,7 @@ parser.add_argument(
     "--mask_type",
     type=str,
     default="surgical",
-    choices=["surgical", "N95", "KN95", "cloth", "gas", "random", "all"],
+    choices=["surgical", "N95", "KN95", "cloth", "gas", "inpaint","random", "all"],
     help="Type of the mask to be applied. Available options: all, surgical_blue, surgical_green, N95, cloth",
 )
 
