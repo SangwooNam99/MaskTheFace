@@ -22,7 +22,7 @@ parser.add_argument(
     "--mask_type",
     type=str,
     default="surgical",
-    choices=["surgical", "N95", "KN95", "cloth", "gas", "inpaint", "random", "all"],
+    choices=["surgical", "N95", "KN95", "cloth", "gas", "random", "all"],
     help="Type of the mask to be applied. Available options: all, surgical_blue, surgical_green, N95, cloth",
 )
 
@@ -44,7 +44,7 @@ parser.add_argument(
     "--color",
     type=str,
     default="#0473e2",
-    choices=["#C2A174","#0473e2","#3D3D3D","#1F304C","#531A29","#FFFFFF","all"]
+    choices=["#C2A174","#0473e2","#3D3D3D","#1F304C","#531A29","#FFFFFF","random"]
     help="Hex color value that need to be overlayed to the mask",
 )
 
