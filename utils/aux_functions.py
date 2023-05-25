@@ -589,7 +589,7 @@ def mask_image(image_path, args):
         available_mask_types = get_available_mask_types()
         mask_type = random.choices(available_mask_types, weights=[10,10,10,5,10,2,10,7,0], k=1)
         mask_type = mask_type[0]
-
+        
     if verbose:
         tqdm.write("Faces found: {:2d}".format(len(face_locations)))
     # Process each face in the image
