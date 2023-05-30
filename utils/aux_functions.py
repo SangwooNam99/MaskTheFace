@@ -320,7 +320,7 @@ def mask_face(image, face_location, six_points, angle, args, type="surgical"):
         # Apply pattern to mask
         img = texture_the_mask(img, args.pattern, args.pattern_weight)
 
-    if args.color == ramdom :
+    if args.color == "ramdom" :
         # Apply color to mask
         color_list = ["#c6a477", "#363636", "#54192b", "#143f38", "#0473e2", "#ecfafb"]
         color = random.choice(color_list)
