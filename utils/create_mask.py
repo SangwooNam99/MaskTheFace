@@ -8,19 +8,7 @@ import numpy as np
 import random
 
 COLOR = [
-    "#fc1c1a",
-    "#177ABC",
-    "#94B6D2",
-    "#A5AB81",
-    "#DD8047",
-    "#6b425e",
-    "#e26d5a",
-    "#c92c48",
-    "#6a506d",
-    "#ffc900",
-    "#ffffff",
-    "#000000",
-    "#49ff00",
+   "#c6a477", "#363636", "#54192b", "#143f38", "#0473e2", "#ecfafb"
 ]
 
 
